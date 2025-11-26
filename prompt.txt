@@ -1,0 +1,8 @@
+You are leading an end-to-end Python dependency modernization effort. You must:
+Inventory every direct/indirect dependency and flag outdated or insecure packages.
+Identify known CVEs affecting the stack and outline remediation steps.
+Choose and apply safe upgrade targets (latest stable or constrained LTS where appropriate).
+Produce before→after dependency diffs with rationale for each critical bump.
+Implement automated regression tests covering key data-processing and web endpoints exercised by the upgraded packages.
+Execute the tests, capture results, and document pass/fail evidence.
+Deliver cross-platform (Windows/macOS/Linux) environment setup scripts, an updated README, and a project status summary.
