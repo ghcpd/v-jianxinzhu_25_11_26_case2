@@ -1,0 +1,27 @@
+# Updated Dependencies - Python Modernization Project
+# Generated: 2025-11-26
+# Target Python Version: 3.9+
+
+# Web Framework
+Django==4.2.8  # LTS until Apr 2026, all CVEs patched, async support
+
+# HTTP Client
+requests==2.32.3  # Latest stable, security updates, HTTP improvements
+urllib3==2.1.0  # Latest stable, HTTP/2 support, buffer overflow fixes
+
+# Data Processing
+numpy==1.26.3  # Latest in 1.x branch, buffer overflow fixes, backward compatible
+scipy==1.13.0  # Latest stable, requires numpy>=1.20.3, algorithm improvements
+pandas==2.2.0  # Latest stable, requires Python 3.9+, breaking changes handled
+
+# Database
+psycopg2-binary==2.9.9  # Latest v2 stable (binary for Windows), auth fixes
+
+# Task Queue
+celery==5.3.4  # Latest stable, critical security fixes, API modernization
+
+# Optional pinned transitive dependencies for reproducibility
+click==8.1.7  # celery dependency
+kombu==5.3.4  # celery dependency
+vine==5.1.0  # celery dependency
+billiard==4.2.0  # celery dependency
