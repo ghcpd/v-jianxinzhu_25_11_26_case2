@@ -1,0 +1,206 @@
+{
+  "generated": "2025-11-26T14:58:24.803603",
+  "summary": {
+    "total_packages": 8,
+    "outdated_packages": 8,
+    "total_cves": 24,
+    "critical": 2,
+    "high": 11,
+    "medium": 8,
+    "low": 3
+  },
+  "packages": {
+    "Django": {
+      "current_version": "2.1.5",
+      "latest_version": "4.2.16",
+      "cves": [
+        {
+          "cve": "CVE-2019-3498",
+          "severity": "HIGH",
+          "description": "Content spoofing vulnerability",
+          "published": "2019-01-09"
+        },
+        {
+          "cve": "CVE-2019-6975",
+          "severity": "MEDIUM",
+          "description": "Memory exhaustion in django.utils.numberformat",
+          "published": "2019-02-11"
+        },
+        {
+          "cve": "CVE-2019-12308",
+          "severity": "MEDIUM",
+          "description": "XSS vulnerability in AdminURLFieldWidget",
+          "published": "2019-06-03"
+        },
+        {
+          "cve": "CVE-2019-14232",
+          "severity": "HIGH",
+          "description": "Denial-of-service in django.utils.text.Truncator",
+          "published": "2019-08-02"
+        },
+        {
+          "cve": "CVE-2019-14233",
+          "severity": "HIGH",
+          "description": "Denial-of-service in strip_tags()",
+          "published": "2019-08-02"
+        },
+        {
+          "cve": "CVE-2019-14234",
+          "severity": "HIGH",
+          "description": "SQL injection in SQLite JSONField",
+          "published": "2019-08-02"
+        },
+        {
+          "cve": "CVE-2019-14235",
+          "severity": "CRITICAL",
+          "description": "Potential memory exhaustion in django.utils.encoding",
+          "published": "2019-08-02"
+        },
+        {
+          "cve": "CVE-2021-33203",
+          "severity": "MEDIUM",
+          "description": "Potential directory traversal via archive.extract()",
+          "published": "2021-06-02"
+        },
+        {
+          "cve": "CVE-2021-33571",
+          "severity": "HIGH",
+          "description": "Possible indeterminate SSRF, RFI, and LFI attacks",
+          "published": "2021-06-02"
+        }
+      ]
+    },
+    "requests": {
+      "current_version": "2.20.0",
+      "latest_version": "2.32.3",
+      "cves": [
+        {
+          "cve": "CVE-2023-32681",
+          "severity": "MEDIUM",
+          "description": "Proxy-Authorization header leak in redirects",
+          "published": "2023-05-26"
+        },
+        {
+          "cve": "CVE-2024-35195",
+          "severity": "MEDIUM",
+          "description": "Subsequent requests to the same host ignore cert verification",
+          "published": "2024-05-20"
+        }
+      ]
+    },
+    "pandas": {
+      "current_version": "0.25.3",
+      "latest_version": "2.2.3",
+      "cves": [
+        {
+          "cve": "No critical CVEs",
+          "severity": "LOW",
+          "description": "Very old version, missing security patches and features",
+          "published": "N/A"
+        }
+      ]
+    },
+    "numpy": {
+      "current_version": "1.16.2",
+      "latest_version": "1.26.4",
+      "cves": [
+        {
+          "cve": "CVE-2021-33430",
+          "severity": "HIGH",
+          "description": "Buffer overflow in PyArray_NewFromDescr_int",
+          "published": "2021-05-19"
+        },
+        {
+          "cve": "CVE-2021-41496",
+          "severity": "MEDIUM",
+          "description": "Buffer overflow in array_from_pyobj",
+          "published": "2021-12-17"
+        },
+        {
+          "cve": "CVE-2021-41495",
+          "severity": "HIGH",
+          "description": "NULL pointer dereference in numpy.empty",
+          "published": "2021-12-17"
+        }
+      ]
+    },
+    "scipy": {
+      "current_version": "1.2.1",
+      "latest_version": "1.14.1",
+      "cves": [
+        {
+          "cve": "No critical CVEs",
+          "severity": "LOW",
+          "description": "Old version with potential bugs",
+          "published": "N/A"
+        }
+      ]
+    },
+    "psycopg2": {
+      "current_version": "2.7.6",
+      "latest_version": "2.9.10",
+      "cves": [
+        {
+          "cve": "Not in CVE database",
+          "severity": "LOW",
+          "description": "Old version with potential compatibility issues",
+          "published": "N/A"
+        }
+      ]
+    },
+    "celery": {
+      "current_version": "4.2.1",
+      "latest_version": "5.4.0",
+      "cves": [
+        {
+          "cve": "CVE-2021-23727",
+          "severity": "CRITICAL",
+          "description": "Stored command injection in task names",
+          "published": "2021-12-29"
+        }
+      ]
+    },
+    "urllib3": {
+      "current_version": "1.24.2",
+      "latest_version": "2.2.3",
+      "cves": [
+        {
+          "cve": "CVE-2019-11236",
+          "severity": "MEDIUM",
+          "description": "CRLF injection via request parameter",
+          "published": "2019-04-18"
+        },
+        {
+          "cve": "CVE-2019-11324",
+          "severity": "HIGH",
+          "description": "Certificate verification bypass",
+          "published": "2019-04-18"
+        },
+        {
+          "cve": "CVE-2020-26137",
+          "severity": "MEDIUM",
+          "description": "CRLF injection via HTTP request method",
+          "published": "2020-09-30"
+        },
+        {
+          "cve": "CVE-2021-33503",
+          "severity": "HIGH",
+          "description": "Catastrophic backtracking in URL parsing",
+          "published": "2021-06-29"
+        },
+        {
+          "cve": "CVE-2023-43804",
+          "severity": "HIGH",
+          "description": "Cookie request header leak on cross-origin redirects",
+          "published": "2023-10-04"
+        },
+        {
+          "cve": "CVE-2023-45803",
+          "severity": "HIGH",
+          "description": "Request body leak on redirect",
+          "published": "2023-10-17"
+        }
+      ]
+    }
+  }
+}

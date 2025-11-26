@@ -1,0 +1,43 @@
+# Modernized Python Dependencies
+# Generated: 2025-11-26
+# All packages upgraded to latest stable/LTS versions with security patches
+
+# Web Framework - Django LTS with async support and security fixes
+Django==4.2.16
+
+# HTTP Library - Latest with certificate verification fixes
+requests==2.32.3
+
+# Data Processing - Modern pandas with performance improvements
+pandas==2.2.3
+
+# Numerical Computing - Python 3.12 compatible with security patches
+numpy==1.26.4
+
+# Scientific Computing - Latest stable with algorithm improvements
+scipy==1.14.1
+
+# PostgreSQL Adapter - Modern version with PostgreSQL 12+ support
+psycopg2==2.9.10
+
+# Task Queue - Latest with command injection fix
+celery==5.4.0
+
+# HTTP Client - Security patches for certificate and cookie handling
+urllib3==2.2.3
+
+# Additional dependencies for celery 5.x
+kombu==5.4.2
+vine==5.1.0
+amqp==5.3.1
+billiard==4.2.1
+
+# Additional dependencies for Django 4.2
+asgiref==3.8.1
+sqlparse==0.5.2
+tzdata==2024.2
+
+# Testing and development tools
+pytest==8.3.3
+pytest-django==4.9.0
+pytest-cov==6.0.0
